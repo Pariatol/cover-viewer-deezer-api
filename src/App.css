@@ -57,6 +57,10 @@ a:last-child{
     .App{
         font-size:1.8rem;
     }
+
+    .fab{
+        font-size: 1.7rem;
+    }
     .new{
         font-size:1.2rem;
     }
