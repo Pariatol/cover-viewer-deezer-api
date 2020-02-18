@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+html{
+    font-size:10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(12, 11, 11);
+    color:white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size:3rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.cover{
+    text-align:center;
+    font-family: "Metal Mania", cursive;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    cursor:pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.cover img{
+    border:10px solid black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.new{
+    opacity:0;
+    font-size:2rem;
+}
+
+.cover:hover .new{
+    opacity:1;
+}
+
+.fab{
+    font-size:2.5rem;
+}
+
+a{
+    text-decoration:none;
+    color:red;
+}
+
+a:last-child{
+    color:orange;
+}
+
+@media(max-width:415px){
+    .App{
+        font-size:1.8rem;
+    }
+    .new{
+        font-size:1.2rem;
+    }
+    img{
+        height: 30rem;
+        width: 30rem;
+    }
 }
