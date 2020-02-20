@@ -49,13 +49,13 @@ function App() {
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto d-flex flex-column">
                     <li class="nav-item mr-1">
-                      <a class="nav-link text-light" onClick={(e)=>handleClick(e,'metal')}>Metal</a>
+                      <a class="nav-link" onClick={(e)=>handleClick(e,'metal')}>Metal</a>
                     </li>
                     <li class="nav-item mr-1">
-                      <a class="nav-link text-light" onClick={(e)=>handleClick(e,'jazz')}>Jazz</a>
+                      <a class="nav-link" onClick={(e)=>handleClick(e,'jazz')}>Jazz</a>
                     </li>
                     <li class="nav-item mr-1">
-                      <a class="nav-link text-light" onClick={(e)=>handleClick(e,'progrock')}>Prog Rock</a>
+                      <a class="nav-link" onClick={(e)=>handleClick(e,'progrock')}>Prog Rock</a>
                     </li>
                 </ul>
             </div>
