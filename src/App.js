@@ -41,21 +41,21 @@ function App() {
       </ul>
     </nav> */}
 
-<nav class="navbar navbar-expand-md navbar-dark fixed-top text-white" id="main-nav">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top" id="main-nav">
         <div class="container">
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav ml-auto d-flex flex-column">
+                <ul class="navbar-nav ml-auto d-flex flex-column font-weight-bold">
                     <li class="nav-item mr-1">
-                      <a class="nav-link" onClick={(e)=>handleClick(e,'metal')}>Metal</a>
+                      <a class="nav-link text-light" onClick={(e)=>handleClick(e,'metal')}>Metal</a>
                     </li>
                     <li class="nav-item mr-1">
-                      <a class="nav-link" onClick={(e)=>handleClick(e,'jazz')}>Jazz</a>
+                      <a class="nav-link text-light" onClick={(e)=>handleClick(e,'jazz')}>Jazz</a>
                     </li>
                     <li class="nav-item mr-1">
-                      <a class="nav-link" onClick={(e)=>handleClick(e,'progrock')}>Prog Rock</a>
+                      <a class="nav-link text-light" onClick={(e)=>handleClick(e,'progrock')}>Prog Rock</a>
                     </li>
                 </ul>
             </div>
