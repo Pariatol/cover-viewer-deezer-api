@@ -60,6 +60,7 @@ function App() {
                 </ul>
             </div>
         </div>
+
     </nav>
       {genre===''?<Cover genre={listMetalBands}/>:null}
       {genre==='metal'?<Cover genre={listMetalBands}/>:null}
