@@ -25,14 +25,6 @@ body{
     cursor:pointer;
 }
 
-.nav-link{
-    /* background-color:rgba(7, 218, 95, 0.5);
-    width:15%;
-    text-align:center;
-    font-family: 'Arial', sans-serif; */
-}
-
-
 .navbar-toggler{
     background-color: rgba(7, 218, 95, 0.2);
     border-radius:1px solid yellow;
@@ -85,7 +77,7 @@ a{
     }
 
     .nav-link{
-        background-color:rgba(7, 218, 95, 0.5);
+        background-color:rgba(7, 218, 95, 0.8);
         width:15%;
         text-align:center;
         font-family: 'Arial', sans-serif;
@@ -108,5 +100,9 @@ a{
     img{
         width:100%;
         height:auto;
+    }
+
+    .navbar-toggler{
+        font-size:2rem;
     }
 }
