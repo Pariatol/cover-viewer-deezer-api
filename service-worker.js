@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cover-viewer-deezer-api/precache-manifest.65d71d08d90a10adb78a87acf2eb34f2.js"
+  "/cover-viewer-deezer-api/precache-manifest.45e8386765d450f7c0a3777f478c9282.js"
 );
 
 self.addEventListener('message', (event) => {

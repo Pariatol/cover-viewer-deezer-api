@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cover-viewer-deezer-api/static/css/main.30599cc1.chunk.css",
+    "main.css": "/cover-viewer-deezer-api/static/css/main.12d31132.chunk.css",
     "main.js": "/cover-viewer-deezer-api/static/js/main.f7c181ab.chunk.js",
     "main.js.map": "/cover-viewer-deezer-api/static/js/main.f7c181ab.chunk.js.map",
     "runtime-main.js": "/cover-viewer-deezer-api/static/js/runtime-main.f85e0600.js",
@@ -9,17 +9,17 @@
     "static/js/2.027a8ce3.chunk.js": "/cover-viewer-deezer-api/static/js/2.027a8ce3.chunk.js",
     "static/js/2.027a8ce3.chunk.js.map": "/cover-viewer-deezer-api/static/js/2.027a8ce3.chunk.js.map",
     "index.html": "/cover-viewer-deezer-api/index.html",
-    "precache-manifest.65d71d08d90a10adb78a87acf2eb34f2.js": "/cover-viewer-deezer-api/precache-manifest.65d71d08d90a10adb78a87acf2eb34f2.js",
+    "precache-manifest.45e8386765d450f7c0a3777f478c9282.js": "/cover-viewer-deezer-api/precache-manifest.45e8386765d450f7c0a3777f478c9282.js",
     "service-worker.js": "/cover-viewer-deezer-api/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/cover-viewer-deezer-api/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.30599cc1.chunk.css.map": "/cover-viewer-deezer-api/static/css/main.30599cc1.chunk.css.map",
+    "static/css/main.12d31132.chunk.css.map": "/cover-viewer-deezer-api/static/css/main.12d31132.chunk.css.map",
     "static/js/2.027a8ce3.chunk.js.LICENSE.txt": "/cover-viewer-deezer-api/static/js/2.027a8ce3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f85e0600.js",
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.027a8ce3.chunk.js",
-    "static/css/main.30599cc1.chunk.css",
+    "static/css/main.12d31132.chunk.css",
     "static/js/main.f7c181ab.chunk.js"
   ]
 }
