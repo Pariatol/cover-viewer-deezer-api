@@ -49,6 +49,10 @@ body{
     height:auto;
 }
 
+.cover img:active{
+    box-shadow: 5px 5px 5px rgb(199, 238, 180);
+}
+
 .new{
     opacity:0;
     font-size:2rem;
@@ -85,6 +89,12 @@ a{
     margin-bottom:2rem;
     border-radius:1rem;
     text-align:center;
+    width:100%;
+}
+
+.favItem .album{
+    overflow-wrap: break-word;
+    word-break:break-all;
 }
 
 .favItem a:last-child{
