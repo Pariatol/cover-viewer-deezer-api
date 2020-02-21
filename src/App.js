@@ -103,7 +103,7 @@ const Cover = (props) => {
   // https://cors-anywhere.herokuapp.com/
 
   async function fetchData(band) {
-    const res = await fetch(`https://api.deezer.com/search/autocomplete?q=${band}`);
+    const res = await fetch(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/search/autocomplete?q=${band}`);
     res.json()
       .then(res => {
         var newList = res.albums.data.filter(item=> item.artist['name'] === band);
@@ -151,11 +151,6 @@ const Cover = (props) => {
 const Favorites = (props) => {
 
   const removeFromFav = (fav, id) => {
-    console.log('hey');
-    // let newFav = [...fav];
-    // newFav.splice(newFav.indexOf(id),1)
-
-    // props.setFav(newFav);
     let newFav = fav.filter(item=>item.id!==id);
     props.setFav(newFav);
   }
