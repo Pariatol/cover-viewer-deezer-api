@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cover-viewer-deezer-api/static/css/main.e17af3e2.chunk.css",
-    "main.js": "/cover-viewer-deezer-api/static/js/main.d75f7ae1.chunk.js",
-    "main.js.map": "/cover-viewer-deezer-api/static/js/main.d75f7ae1.chunk.js.map",
+    "main.js": "/cover-viewer-deezer-api/static/js/main.f3720161.chunk.js",
+    "main.js.map": "/cover-viewer-deezer-api/static/js/main.f3720161.chunk.js.map",
     "runtime-main.js": "/cover-viewer-deezer-api/static/js/runtime-main.f85e0600.js",
     "runtime-main.js.map": "/cover-viewer-deezer-api/static/js/runtime-main.f85e0600.js.map",
     "static/css/2.47e06e2e.chunk.css": "/cover-viewer-deezer-api/static/css/2.47e06e2e.chunk.css",
     "static/js/2.bbaff72f.chunk.js": "/cover-viewer-deezer-api/static/js/2.bbaff72f.chunk.js",
     "static/js/2.bbaff72f.chunk.js.map": "/cover-viewer-deezer-api/static/js/2.bbaff72f.chunk.js.map",
     "index.html": "/cover-viewer-deezer-api/index.html",
-    "precache-manifest.bd2f17ecc6aae86a4ae740d0983ad447.js": "/cover-viewer-deezer-api/precache-manifest.bd2f17ecc6aae86a4ae740d0983ad447.js",
+    "precache-manifest.6b623bb034c7527664db4405625926bc.js": "/cover-viewer-deezer-api/precache-manifest.6b623bb034c7527664db4405625926bc.js",
     "service-worker.js": "/cover-viewer-deezer-api/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/cover-viewer-deezer-api/static/css/2.47e06e2e.chunk.css.map",
     "static/css/main.e17af3e2.chunk.css.map": "/cover-viewer-deezer-api/static/css/main.e17af3e2.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.bbaff72f.chunk.js",
     "static/css/main.e17af3e2.chunk.css",
-    "static/js/main.d75f7ae1.chunk.js"
+    "static/js/main.f3720161.chunk.js"
   ]
 }
