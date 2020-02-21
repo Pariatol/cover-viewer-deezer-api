@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c27a7b70a5884fcaf333b88a90d65579",
+    "revision": "a17e4b5c92d94991ba5fdfa3ff852123",
     "url": "/cover-viewer-deezer-api/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cover-viewer-deezer-api/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "799afaee5590a449b87f",
-    "url": "/cover-viewer-deezer-api/static/css/main.e17af3e2.chunk.css"
+    "revision": "022b195c5175354cd98a",
+    "url": "/cover-viewer-deezer-api/static/css/main.7fb877eb.chunk.css"
   },
   {
     "revision": "6928701f6c1fba5df3d2",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cover-viewer-deezer-api/static/js/2.bbaff72f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "799afaee5590a449b87f",
+    "revision": "022b195c5175354cd98a",
     "url": "/cover-viewer-deezer-api/static/js/main.b56caf1f.chunk.js"
   },
   {
