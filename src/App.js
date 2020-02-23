@@ -173,7 +173,7 @@ const Favorites = (props) => {
             </div>
 
           <div className="album">
-            {item.album} <i class="fas fa-minus-square" onClick={()=>removeFromFav(props.fav, item.id)}></i> <a href={`https://www.youtube.com/results?search_query=${item.band}+${item.album}+full+album`} target="_blank"><i class="fab fa-youtube"></i></a> <a href={`https://www.amazon.fr/s?k=${item.band}+${item.album}&__mk_fr_FR=ÅMÅŽÕÑ&ref=nb_sb_noss_1`} target="_blank"><i class="fab fa-amazon"></i></a></div>
+            {item.album}<div className="buttons"></div> <i class="fas fa-minus-square" onClick={()=>removeFromFav(props.fav, item.id)}></i> <a href={`https://www.youtube.com/results?search_query=${item.band}+${item.album}+full+album`} target="_blank"><i class="fab fa-youtube"></i></a> <a href={`https://www.amazon.fr/s?k=${item.band}+${item.album}&__mk_fr_FR=ÅMÅŽÕÑ&ref=nb_sb_noss_1`} target="_blank"><i class="fab fa-amazon"></i></a></div>
             </div>     
     );
   })}
