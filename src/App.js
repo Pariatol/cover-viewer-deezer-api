@@ -140,7 +140,8 @@ const Cover = (props) => {
         </div>
 
       <div className="album">
-        {props.album} <i class="far fa-plus-square" onClick={()=>addToFav(props.fav,props.url,props.band,props.album)}></i> <a href={youtubeSearch} target="_blank"><i class="fab fa-youtube"></i></a> <a href={amazonSearch} target="_blank"><i class="fab fa-amazon"></i></a></div>
+        {props.album} 
+      <div className="buttons"></div> <i class="far fa-plus-square" onClick={()=>addToFav(props.fav,props.url,props.band,props.album)}></i> <a href={youtubeSearch} target="_blank"><i class="fab fa-youtube"></i></a> <a href={amazonSearch} target="_blank"><i class="fab fa-amazon"></i></a></div>
       <div className="new">
         Click on the image for a new cover !
         </div>   
